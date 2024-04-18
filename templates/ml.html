@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphs and Data Visualization</title>
+</head>
+        <!-- add link to page -->
+        <a href="/charts">Charts</a>
+        <br><br>
+        <a href="/map">Map</a>
+        <br><br>
+        <a href="/ml">Machine Learning</a>
+<body>
+    <h1>Machine Learning</h1>
+    <div id="graphs">
+        <!-- Image tags for the static graphs -->
+        <img src="{{ url_for('static', filename='Images/crime_count_by_month.png') }}" alt="Graph 1 Description">
+        <img src="{{ url_for('static', filename='Images/daily_crime_count_oct_2023.png') }}" alt="Graph 2 Description">
+        <img src="{{ url_for('static', filename='Images/top_10_crimes_pie.png') }}" alt="Graph 3 Description">
+        <img src="{{ url_for('static', filename='Images/top_10_crimes.png') }}" alt="Graph 3 Description">
+    </div>
+</body>
+</html>
