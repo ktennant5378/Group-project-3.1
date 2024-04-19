@@ -4,7 +4,8 @@ https://www.kaggle.com/datasets/chaitanyakck/crime-data-from-2020-to-present - T
 Flask - is a micro web framework written in Python. Flask does not include any tools or libraries, that is why it is classified as a microframework. 
 SQL ETL - SQL stands for the Structured Query Language and ETL stands for Export, Transform and Load. ETL extracts the data from various sources, transforms the data using business logic, and loads the transformed data into target database table(s). 
 
-CSV cleanup - Cleaning the CSV files is the first key step in preparing the data for import / machine learning. It involves identifying duplicates, correcting invalid values or formats, removing redundant columns, handling outlier data using statistical methods and such.
+**CSV cleanup**
+Cleaning the CSV files is the first key step in preparing the data for import / machine learning. It involves identifying duplicates, correcting invalid values or formats, removing redundant columns, handling outlier data using statistical methods and such.
 
 **Data Ethics**
 
