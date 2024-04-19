@@ -6,6 +6,9 @@ SQL ETL - SQL stands for the Structured Query Language and ETL stands for Export
 
 CSV cleanup - Cleaning the CSV files is the first key step in preparing the data for import / machine learning. It involves identifying duplicates, correcting invalid values or formats, removing redundant columns, handling outlier data using statistical methods and such.
 
+Data Ethics 
+In regards to data ethics, LA's crime statistics have been meticulously anonymized to safeguard the identities of individuals involved, ensuring that there is no way to trace back any piece of data to a specific person. This is paramount, as the misuse of such data could lead to harm or discrimination against individuals or groups. Never did we have access to personal identifiers for both victims and one committing the crime. Furthermore, the representation of various races in crime statistics must be handled with extreme sensitivity to avoid reinforcing negative stereotypes that could contribute to the stigmatization of certain communities. This data mustn't be used to draw broad conclusions about the propensity of crime within different racial groups, which could have damaging community impacts, such as unwarranted scrutiny or marginalization. Users of the dataset must approach their analyses with a critical eye toward these biases and consider the real-world implications their interpretations may have on the communities represented.
+
 Transform the clean data into the data folder:
 I opened the VS code app and started importing the dependencies, 
 I read in the data from the excel file using pandas. 
